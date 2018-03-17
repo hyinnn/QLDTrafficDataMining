@@ -1,4 +1,4 @@
-Instructions for rulemining.py
+Instructions for running rulemining.py
 ----------------------------
 
 1. Make sure to have driverdemographics.csv and factorsinroadcrashes.csv in the same folder as rulemining.py
@@ -12,3 +12,13 @@ Instructions for rulemining.py
 
 	e.g. Mining factorsinroadcrashes.csv with min support as 0.3 and min confidence as  0.5
 	cmd/terminal~: python rulemining.py factors 0.3 0.5
+
+
+
+
+References
+----------------------------
+
+Apyori.py - https://pypi.python.org/pypi/apyori/1.0.0
+
+QLD Traffic Dataset - https://data.qld.gov.au/dataset/crash-data-from-queensland-roads
